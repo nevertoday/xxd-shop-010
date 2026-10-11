@@ -1,0 +1,7 @@
+interface:
+  display_name: "/xxd-shop-010"
+  short_description: "White-background label cards with the product breaking the edge."
+  default_prompt: "Use $xxd-shop-010; keep the bundled original brief (platform line and sample theme removed) as the sole aesthetic authority, treat user-supplied copy as a copy plan by default and verbatim only when asked, say which mode applies, keep a pure white background with no scene, make the product's own most appealing part cross the label edge, write no grades, origins or certifications without supplied facts, and deliver fresh PNGs in one flat task directory."
+
+policy:
+  allow_implicit_invocation: true
