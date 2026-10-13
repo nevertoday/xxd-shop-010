@@ -10,7 +10,7 @@
    "id": "c01",
    "section": "category",
    "ratio": "3:4",
-   "input": "name",
+   "input": "product-mc-milk+logo-muchuan",
    "use": {
     "zh": "详情页模块",
     "en": "Detail-page module"
@@ -33,7 +33,7 @@
    "id": "c02",
    "section": "category",
    "ratio": "1:1",
-   "input": "name",
+   "input": "product-keke-chips+logo-keke",
    "use": {
     "zh": "白底主图",
     "en": "White-background listing"
@@ -56,7 +56,7 @@
    "id": "c03",
    "section": "category",
    "ratio": "1:1",
-   "input": "name",
+   "input": "product-mc-yogurt+logo-muchuan",
    "use": {
     "zh": "白底主图",
     "en": "White-background listing"
@@ -79,7 +79,7 @@
    "id": "c04",
    "section": "category",
    "ratio": "4:5",
-   "input": "name",
+   "input": "product-xd-steak+logo-xiandao",
    "use": {
     "zh": "详情页模块",
     "en": "Detail-page module"
@@ -102,7 +102,7 @@
    "id": "c05",
    "section": "category",
    "ratio": "3:4",
-   "input": "name",
+   "input": "logo-chengli",
    "use": {
     "zh": "详情页模块",
     "en": "Detail-page module"
@@ -125,7 +125,7 @@
    "id": "c06",
    "section": "category",
    "ratio": "1:1",
-   "input": "name",
+   "input": "product-lc-water+logo-lengchuan",
    "use": {
     "zh": "白底主图",
     "en": "White-background listing"
@@ -148,7 +148,7 @@
    "id": "s01",
    "section": "size",
    "ratio": "1:1",
-   "input": "orange",
+   "input": "orange+logo-chengli",
    "use": {
     "zh": "白底主图",
     "en": "White-background listing"
@@ -171,7 +171,7 @@
    "id": "s02",
    "section": "size",
    "ratio": "3:4",
-   "input": "orange",
+   "input": "orange+logo-chengli",
    "use": {
     "zh": "详情页模块",
     "en": "Detail-page module"
@@ -194,7 +194,7 @@
    "id": "s03",
    "section": "size",
    "ratio": "9:16",
-   "input": "orange",
+   "input": "orange+logo-chengli",
    "use": {
     "zh": "竖屏",
     "en": "Vertical screen"
@@ -217,7 +217,7 @@
    "id": "s04",
    "section": "size",
    "ratio": "16:9",
-   "input": "orange",
+   "input": "orange+logo-chengli",
    "use": {
     "zh": "横版模块",
     "en": "Landscape module"
@@ -240,7 +240,7 @@
    "id": "s05",
    "section": "category",
    "ratio": "3:4",
-   "input": "strawberry",
+   "input": "strawberry+logo-chengli",
    "use": {
     "zh": "详情页模块",
     "en": "Detail-page module"
@@ -263,7 +263,7 @@
    "id": "s06",
    "section": "category",
    "ratio": "1:1",
-   "input": "honey-jar",
+   "input": "product-yfp-honey+logo-yefengpo",
    "use": {
     "zh": "白底主图",
     "en": "White-background listing"
@@ -286,7 +286,7 @@
    "id": "s07",
    "section": "category",
    "ratio": "3:4",
-   "input": "cold-brew",
+   "input": "product-shanyu-coldbrew+logo-shanyu",
    "use": {
     "zh": "详情页模块",
     "en": "Detail-page module"
@@ -309,7 +309,7 @@
    "id": "s08",
    "section": "special",
    "ratio": "1:1",
-   "input": "orange",
+   "input": "orange+logo-chengli",
    "use": {
     "zh": "白底主图",
     "en": "White-background listing"
