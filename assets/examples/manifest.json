@@ -1,0 +1,162 @@
+{
+ "skill": "010",
+ "special": {
+  "zh": "换语言",
+  "en": "In English"
+ },
+ "set": null,
+ "items": [
+  {
+   "id": "s01",
+   "section": "size",
+   "ratio": "1:1",
+   "input": "orange",
+   "use": {
+    "zh": "白底主图",
+    "en": "White-background listing"
+   },
+   "product": {
+    "zh": "橙里 赣南脐橙",
+    "en": "CHENGLI Gannan navel oranges"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": true,
+   "file": "s01-size-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s02",
+   "section": "size",
+   "ratio": "3:4",
+   "input": "orange",
+   "use": {
+    "zh": "详情页模块",
+    "en": "Detail-page module"
+   },
+   "product": {
+    "zh": "橙里 赣南脐橙",
+    "en": "CHENGLI Gannan navel oranges"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s02-size-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s03",
+   "section": "size",
+   "ratio": "9:16",
+   "input": "orange",
+   "use": {
+    "zh": "竖屏",
+    "en": "Vertical screen"
+   },
+   "product": {
+    "zh": "橙里 赣南脐橙",
+    "en": "CHENGLI Gannan navel oranges"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s03-size-9x16-941x1672.png",
+   "pixels": "941x1672"
+  },
+  {
+   "id": "s04",
+   "section": "size",
+   "ratio": "16:9",
+   "input": "orange",
+   "use": {
+    "zh": "横版模块",
+    "en": "Landscape module"
+   },
+   "product": {
+    "zh": "橙里 赣南脐橙",
+    "en": "CHENGLI Gannan navel oranges"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s04-size-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "s05",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "strawberry",
+   "use": {
+    "zh": "详情页模块",
+    "en": "Detail-page module"
+   },
+   "product": {
+    "zh": "橙里 奶油草莓",
+    "en": "CHENGLI cream strawberries"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s05-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s06",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "honey-jar",
+   "use": {
+    "zh": "白底主图",
+    "en": "White-background listing"
+   },
+   "product": {
+    "zh": "野蜂坡 百花蜜",
+    "en": "YEFENGPO wildflower honey"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s06-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s07",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "cold-brew",
+   "use": {
+    "zh": "详情页模块",
+    "en": "Detail-page module"
+   },
+   "product": {
+    "zh": "山屿 冷萃咖啡",
+    "en": "SHANYU cold brew"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s07-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s08",
+   "section": "special",
+   "ratio": "1:1",
+   "input": "orange",
+   "use": {
+    "zh": "白底主图",
+    "en": "White-background listing"
+   },
+   "product": {
+    "zh": "橙里 赣南脐橙",
+    "en": "CHENGLI Gannan navel oranges"
+   },
+   "text": "prompt en-US",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s08-special-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  }
+ ]
+}
