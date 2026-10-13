@@ -4,6 +4,12 @@
 
 | 文件 | 用途 | 实际像素 | 输入 | 文字方式 | visual_review |
 |---|---|---|---|---|---|
+| `c01-category-3x4-1086x1448.png` | 详情页模块 | 1086x1448 | 仅商品名称 | plan zh-CN | passed |
+| `c02-category-1x1-1254x1254.png` | 白底主图 | 1254x1254 | 仅商品名称 | plan zh-CN | passed |
+| `c03-category-1x1-1254x1254.png` | 白底主图 | 1254x1254 | 仅商品名称 | plan zh-CN | passed |
+| `c04-category-4x5-1122x1402.png` | 详情页模块 | 1122x1402 | 仅商品名称 | plan zh-CN | passed |
+| `c05-category-3x4-1086x1448.png` | 详情页模块 | 1086x1448 | 仅商品名称 | plan zh-CN | passed |
+| `c06-category-1x1-1254x1254.png` | 白底主图 | 1254x1254 | 仅商品名称 | plan zh-CN | passed |
 | `s01-size-1x1-1254x1254.png` | 白底主图 | 1254x1254 | 原图 `orange` | prompt zh-CN | passed |
 | `s02-size-3x4-1086x1448.png` | 详情页模块 | 1086x1448 | 原图 `orange` | prompt zh-CN | passed |
 | `s03-size-9x16-941x1672.png` | 竖屏 | 941x1672 | 原图 `orange` | prompt zh-CN | passed |
