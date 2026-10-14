@@ -1,6 +1,6 @@
 ---
 name: xxd-shop-010
-description: "Create XXD Shop 010 white-background pop-out product label cards (电商白底跃出标签图) as finished PNGs from a product photo, product directory or product information, treating the bundled original brief as the sole aesthetic authority: one complete, tidy label card on pure white, the product set inside it with its most appealing part breaking naturally past the edge, and a scannable three-tier copy stack — lead-in line, product or flavour title, supporting English or benefit — plus at most a restrained badge. Copy the user supplies is treated as a plan the model may compress and re-tier without changing meaning, unless the user asks for it verbatim. Supports multiple ratios or exact sizes and several compositions per size. Use when the user invokes xxd-shop-010 or asks for 白底标签图、跃出标签、口味标签、卖点标签卡、详情页信息模块."
+description: "Create XXD Shop 010 white-background pop-out product label cards (电商白底跃出标签图) as finished PNGs from a product photo, product directory or product information, treating the bundled original brief as the sole aesthetic authority: one complete, tidy label card on pure white, the product set inside it with its most appealing part breaking naturally past the edge, and a scannable three-tier copy stack — lead-in line, product or flavour title, supporting English or benefit — plus at most a restrained badge. Copy the user supplies is treated as a plan the model may compress and re-tier without changing meaning, unless the user asks for it verbatim. Without user copy, it first drafts a sourced three-tier copy plan for the user to confirm before generating. Supports multiple ratios or exact sizes and several compositions per size. Use when the user invokes xxd-shop-010 or asks for 白底标签图、跃出标签、口味标签、卖点标签卡、详情页信息模块."
 ---
 
 # XXD Shop 010｜白底跃出标签
@@ -17,9 +17,9 @@ description: "Create XXD Shop 010 white-background pop-out product label cards (
 
 **原稿中的平台指令与样例主题已移除。** 原始文件首行的 `@创建图像`（另一平台的调用指令）和末尾的“本次主题：麒麟西瓜”（当时的样例商品）都已从归档原稿删去，见 `references/original-prompt/README.md`。商品永远由本次输入决定。
 
-**用户给的文案，默认按“文案方案”处理。** 这是本编号对家族默认的唯一改动，因为原稿明确写了两条分支：
+**文字默认按“文案方案”处理。** 原稿明确写了两条分支，本编号对家族默认改了两处：
 
-- 用户没给文案：`--text prompt`，模型按“这是什么、有什么特点、为什么值得选”生成短文案。
+- 用户没给文案：本编号启用家族的“起草文案方案”。样张里模型自己写的食品饮品文案反复出现“0 添加”“低酸”“天然纯净”这类没有出处的说法，所以 Agent 先按原稿的三层起草：顶部短引导语或口味印象词，中部商品名或口味名，下部辅助英文或一两条小卖点；内容按原稿的“这是什么、有什么特点、为什么值得选”，只写口味、口感、品类常识和用户给的信息。用户确认后按 `--text plan` 出图。用户明确要模型自己写（`--text prompt`）时，才按原稿让模型生成短文案。
 - 用户给了文案：原稿要求“先分析文案结构与主次关系……允许在不改变核心意思的前提下压缩、整理、强化层级”。所以只写了 `--copy` 时，本编号按 `--text plan` 处理。
 - 用户说“一字不改”“逐字使用”或写了 `--text exact` 时，才按准确文案逐字使用。
 

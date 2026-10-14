@@ -60,11 +60,11 @@ Detail pages need many small modules — flavour tags, benefit cards, spec cards
 
 | You gave | Handling |
 |---|---|
-| No copy | The model writes short copy: what it is, what makes it special, why choose it |
+| No copy | A three-tier copy plan (lead-in, product name, supporting English or benefit) is drafted for you to confirm, each line tagged with its source; generation starts after you confirm. Add `--text prompt` to let the model write it |
 | A block of copy | Treated as a **copy plan**: analysed, tiered, compressed — meaning unchanged, no new facts |
 | "Use it word for word" | Used verbatim |
 
-Unlike other numbers, the plan mode is the default here because the brief itself asks to refine the user's copy plan; you are told which mode applies before generation.
+Unlike most numbers, the plan mode is the default here because the brief itself asks to refine the user's copy plan; without your copy a draft comes first, because model-written food copy keeps adding unsourced claims such as "no additives" or "low acid". You are told which mode applies before generation.
 
 ## Getting started
 
@@ -74,7 +74,7 @@ ln -s "$(pwd)/xxd-shop-010" ~/.claude/skills/xxd-shop-010
 ```
 
 ```text
-/xxd-shop-010 ./canned-peaches.png --product "Yellow peaches in syrup" --size 1:1 --text prompt --locale en-US
+/xxd-shop-010 ./canned-peaches.png --product "Yellow peaches in syrup" --size 1:1 --locale en-US
 /xxd-shop-010 ./watermelon.png --copy "the first bite of summer, sandy and juicy, thin rind, best chilled" --facts "2.5–3 kg each" --locale en-US
 ```
 
