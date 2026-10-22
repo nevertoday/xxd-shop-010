@@ -4,7 +4,7 @@
 
 ### 一张干净的标签卡，商品从边缘跳出来
 
-<strong>简体中文</strong> · <a href="README.en.md">English</a>
+<strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -177,7 +177,7 @@ AI 出图偶尔会写错字，或在品牌名旁多出 ® 这类小符号。交�
 ```text
 xxd-shop-010/
 ├── SKILL.md
-├── README.md / README.en.md
+├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── LICENSE
 ├── agents/openai.yaml
 ├── assets/examples/

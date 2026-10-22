@@ -4,7 +4,7 @@
 
 ### One clean label card, with the product leaping past its edge
 
-<a href="README.md">简体中文</a> · <strong>English</strong>
+<a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -171,7 +171,7 @@ Yes. Give it a folder of product photos: each image is one product, sizes and te
 ```text
 xxd-shop-010/
 ├── SKILL.md
-├── README.md / README.en.md
+├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── LICENSE
 ├── agents/openai.yaml
 ├── assets/examples/
